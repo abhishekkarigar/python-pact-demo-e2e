@@ -1,6 +1,6 @@
-I, [2020-10-04T14:31:48.073807 #18776]  INFO -- : Cleared interactions
-I, [2020-10-04T14:31:48.108055 #18776]  INFO -- : Registered expected interaction GET /builds/3455
-D, [2020-10-04T14:31:48.108942 #18776] DEBUG -- : {
+I, [2020-10-06T10:56:53.372346 #9164]  INFO -- : Cleared interactions
+I, [2020-10-06T10:56:53.383257 #9164]  INFO -- : Registered expected interaction GET /builds/3455
+D, [2020-10-06T10:56:53.383257 #9164] DEBUG -- : {
   "description": "a request for build 3455",
   "providerState": "build 3455 exists",
   "request": {
@@ -24,9 +24,9 @@ D, [2020-10-04T14:31:48.108942 #18776] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2020-10-04T14:31:48.140174 #18776]  INFO -- : Cleared interactions
-I, [2020-10-04T14:31:48.174398 #18776]  INFO -- : Registered expected interaction GET /builds/3455
-D, [2020-10-04T14:31:48.175310 #18776] DEBUG -- : {
+I, [2020-10-06T10:56:53.405082 #9164]  INFO -- : Cleared interactions
+I, [2020-10-06T10:56:53.416489 #9164]  INFO -- : Registered expected interaction GET /builds/3455
+D, [2020-10-06T10:56:53.416988 #9164] DEBUG -- : {
   "description": "a request for build 3455",
   "providerState": "build 3455 exists",
   "request": {
@@ -50,8 +50,8 @@ D, [2020-10-04T14:31:48.175310 #18776] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2020-10-04T14:31:48.209477 #18776]  INFO -- : Received request GET /builds/3455
-D, [2020-10-04T14:31:48.209477 #18776] DEBUG -- : {
+I, [2020-10-06T10:56:53.438314 #9164]  INFO -- : Received request GET /builds/3455
+D, [2020-10-06T10:56:53.438810 #9164] DEBUG -- : {
   "path": "/builds/3455",
   "query": "",
   "method": "get",
@@ -64,8 +64,8 @@ D, [2020-10-04T14:31:48.209477 #18776] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2020-10-04T14:31:48.215432 #18776]  INFO -- : Found matching response for GET /builds/3455
-D, [2020-10-04T14:31:48.215432 #18776] DEBUG -- : {
+I, [2020-10-06T10:56:53.441288 #9164]  INFO -- : Found matching response for GET /builds/3455
+D, [2020-10-06T10:56:53.441789 #9164] DEBUG -- : {
   "status": 200,
   "headers": {
   },
@@ -80,7 +80,7 @@ D, [2020-10-04T14:31:48.215432 #18776] DEBUG -- : {
     }
   }
 }
-I, [2020-10-04T14:31:48.253392 #18776]  INFO -- : Verifying - interactions matched
-I, [2020-10-04T14:31:48.287154 #18776]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json
-I, [2020-10-04T14:31:48.517781 #18776]  INFO -- : Verifying - interactions matched
-I, [2020-10-04T14:31:48.539251 #18776]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json
+I, [2020-10-06T10:56:53.458650 #9164]  INFO -- : Verifying - interactions matched
+I, [2020-10-06T10:56:53.480972 #9164]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json
+I, [2020-10-06T10:56:53.731502 #9164]  INFO -- : Verifying - interactions matched
+I, [2020-10-06T10:56:53.753274 #9164]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json

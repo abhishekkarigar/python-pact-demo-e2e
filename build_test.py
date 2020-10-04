@@ -23,7 +23,7 @@ PACT_LOCAL_UPLOAD_URL = ("http://192.168.99.114/pacts/provider/Provider/consumer
 
 class GetBuildInfoContract(unittest.TestCase):
 
-    mock_host='http://localhost:1234' # this is the mock service just like CM-Persistence
+    mock_host='http://localhost:1234' # this is the mock service just like <external services>
 
     def test_get_build(self):
 
@@ -58,6 +58,7 @@ class GetBuildInfoContract(unittest.TestCase):
         '''
         push_to_broker('2.0.0')
         pact.verify()
+
 
 '''
 the below method push_to_broker becomes redundant, instead

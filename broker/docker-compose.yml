@@ -12,7 +12,8 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
       POSTGRES_DB: postgres
-
+    volumes:
+      - pgdata:/var/lib/postgresql/data
   broker_app:
     image: dius/pact-broker
     ports:
@@ -36,3 +37,6 @@ services:
       - ./ssl:/etc/nginx/ssl
     ports:
       - "8443:443"
+      
+volumes:
+  pgdata:
