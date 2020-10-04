@@ -1,0 +1,245 @@
+# Logfile created on 2020-10-02 13:02:06 +0530 by logger.rb/47272
+I, [2020-10-02T13:02:06.780960 #16764]  INFO -- : Running example 'Verifying a pact between Consumer and Server Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T13:02:06.781952 #16764]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T13:02:06.781952 #16764] DEBUG -- : body :
+I, [2020-10-02T13:02:08.893455 #16764]  INFO -- : Running example 'Verifying a pact between Consumer and Server Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-02T13:02:08.896701 #16764]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T13:02:08.896701 #16764] DEBUG -- : body :
+I, [2020-10-02T14:18:50.999758 #15280]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T14:18:51.000772 #15280]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T14:18:51.002687 #15280] DEBUG -- : body :
+I, [2020-10-02T14:18:51.095406 #15280]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 08:48:51 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T14:18:51.096382 #15280] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T14:18:51.100319 #15280]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T14:27:36.242900 #26496]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T14:27:36.244852 #26496]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T14:27:36.255588 #26496] DEBUG -- : body :
+I, [2020-10-02T14:27:36.321975 #26496]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 08:57:36 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T14:27:36.321975 #26496] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T14:27:36.324902 #26496]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T14:41:56.120636 #27304]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T14:41:56.123570 #27304]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T14:41:56.132389 #27304] DEBUG -- : body :
+I, [2020-10-02T14:41:56.212452 #27304]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 09:11:56 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T14:41:56.213396 #27304] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T14:41:56.216326 #27304]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T14:58:49.836543 #17492]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T14:58:49.839439 #17492]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T14:58:49.846306 #17492] DEBUG -- : body :
+I, [2020-10-02T14:58:49.926301 #17492]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 09:28:49 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T14:58:49.926301 #17492] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T14:58:49.930206 #17492]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T15:00:29.388661 #24880]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:00:29.391558 #24880]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:00:29.398397 #24880] DEBUG -- : body :
+I, [2020-10-02T15:00:29.469673 #24880]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 09:30:29 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T15:00:29.469673 #24880] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T15:00:29.472597 #24880]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T15:11:33.594889 #21508]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:11:33.594889 #21508]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:11:33.594889 #21508] DEBUG -- : body :
+I, [2020-10-02T15:11:33.645752 #21508]  INFO -- : Received response with status: 200, headers: {"Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13) OpenSSL/1.0.1l", "Date"=>"Fri, 02 Oct 2020 09:41:33 GMT", "Content-Length"=>"120", "Connection"=>"Keep-Alive"}, see debug logs for body
+D, [2020-10-02T15:11:33.645752 #21508] DEBUG -- : body: {"name":"#3455","completed":true,"info":{"coverage":30,"apiversion":0.1,"swaggerlink":"http://swagger","buildtime":230}}
+W, [2020-10-02T15:11:33.648745 #21508]  WARN -- : No content type found, performing text diff on body
+I, [2020-10-02T15:42:42.043722 #15960]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:42:42.046679 #15960]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:42:42.046679 #15960] DEBUG -- : body :
+I, [2020-10-02T15:42:44.100603 #15960]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-02T15:42:44.105625 #15960]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:42:44.105625 #15960] DEBUG -- : body :
+I, [2020-10-02T15:43:27.028333 #18020]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:43:27.030326 #18020]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:27.030326 #18020] DEBUG -- : body :
+I, [2020-10-02T15:43:29.085516 #18020]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-02T15:43:29.096521 #18020]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:29.096521 #18020] DEBUG -- : body :
+I, [2020-10-02T15:43:42.785384 #3112]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:43:42.789375 #3112]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:42.795358 #3112] DEBUG -- : body :
+I, [2020-10-02T15:43:44.846977 #3112]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-02T15:43:44.851963 #3112]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:44.851963 #3112] DEBUG -- : body :
+I, [2020-10-02T15:43:55.910754 #5332]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-02T15:43:55.913749 #5332]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:55.922728 #5332] DEBUG -- : body :
+I, [2020-10-02T15:43:57.971797 #5332]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-02T15:43:57.971797 #5332]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-02T15:43:57.974751 #5332] DEBUG -- : body :
+I, [2020-10-03T16:29:56.709945 #17748]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T16:29:56.712870 #17748]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T16:29:56.718727 #17748] DEBUG -- : body :
+I, [2020-10-03T16:29:57.857428 #17748]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 10:59:57 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"141"}, see debug logs for body
+D, [2020-10-03T16:29:57.858171 #17748] DEBUG -- : body: {"body": {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}}
+I, [2020-10-03T16:32:39.942176 #21924]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T16:32:39.944127 #21924]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T16:32:39.944127 #21924] DEBUG -- : body :
+I, [2020-10-03T16:32:41.059977 #21924]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 11:02:41 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"141"}, see debug logs for body
+D, [2020-10-03T16:32:41.059977 #21924] DEBUG -- : body: {"body": {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}}
+I, [2020-10-03T16:33:34.893819 #1128]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T16:33:34.895803 #1128]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T16:33:34.896747 #1128] DEBUG -- : body :
+I, [2020-10-03T16:33:35.986595 #1128]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 11:03:35 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-03T16:33:35.987535 #1128] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-03T19:14:57.070889 #4656]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T19:14:57.075769 #4656]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T19:14:57.082600 #4656] DEBUG -- : body :
+I, [2020-10-03T19:14:58.249070 #4656]  INFO -- : Received response with status: 500, headers: {"Content-Type"=>"text/html", "Content-Length"=>"291", "Server"=>"Werkzeug/0.14.1 Python/3.6.4", "Date"=>"Sat, 03 Oct 2020 13:44:58 GMT"}, see debug logs for body
+D, [2020-10-03T19:14:58.249070 #4656] DEBUG -- : body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+I, [2020-10-03T19:19:30.709851 #18540]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T19:19:34.169014 #18540]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T19:20:53.487240 #1740]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T19:20:56.844572 #1740]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:06:49.860302 #5392]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:06:50.911455 #5392]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:06:50.912430 #5392] DEBUG -- : body :
+I, [2020-10-03T21:06:51.946015 #5392]  INFO -- : Received response with status: 404, headers: {"Content-Type"=>"text/html", "Content-Length"=>"233", "Server"=>"Werkzeug/0.14.1 Python/3.6.4", "Date"=>"Sat, 03 Oct 2020 15:36:51 GMT"}, see debug logs for body
+D, [2020-10-03T21:06:51.946015 #5392] DEBUG -- : body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
+
+I, [2020-10-03T21:07:48.198129 #26016]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:07:49.291280 #26016]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:07:49.291280 #26016] DEBUG -- : body :
+I, [2020-10-03T21:07:50.398672 #26016]  INFO -- : Received response with status: 500, headers: {"Content-Type"=>"text/html", "Content-Length"=>"291", "Server"=>"Werkzeug/0.14.1 Python/3.6.4", "Date"=>"Sat, 03 Oct 2020 15:37:50 GMT"}, see debug logs for body
+D, [2020-10-03T21:07:50.399222 #26016] DEBUG -- : body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+I, [2020-10-03T21:31:46.489384 #16180]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:31:46.574295 #16180]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:31:46.574295 #16180] DEBUG -- : body :
+I, [2020-10-03T21:31:47.715672 #16180]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:32:05.905044 #12676]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:32:06.245333 #12676]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:33:47.467880 #4192]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:33:47.471781 #4192]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:33:47.477711 #4192] DEBUG -- : body :
+I, [2020-10-03T21:33:48.596815 #4192]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:33:48.602674 #4192]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:33:48.603647 #4192] DEBUG -- : body :
+I, [2020-10-03T21:43:44.610019 #25640]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:43:44.689072 #25640]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:43:44.690053 #25640] DEBUG -- : body :
+I, [2020-10-03T21:43:45.821508 #25640]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:45:23.415980 #26224]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:45:23.417854 #26224]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:45:23.418831 #26224] DEBUG -- : body :
+I, [2020-10-03T21:45:24.530181 #26224]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:45:24.541831 #26224]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:45:24.542919 #26224] DEBUG -- : body :
+I, [2020-10-03T21:46:00.723109 #2692]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:46:00.726037 #2692]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:00.726037 #2692] DEBUG -- : body :
+I, [2020-10-03T21:46:01.872824 #2692]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:46:01.878242 #2692]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:01.879178 #2692] DEBUG -- : body :
+I, [2020-10-03T21:46:19.750671 #20696]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:46:19.754567 #20696]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:19.762375 #20696] DEBUG -- : body :
+I, [2020-10-03T21:46:20.888502 #20696]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:46:20.893839 #20696]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:20.894763 #20696] DEBUG -- : body :
+I, [2020-10-03T21:46:50.486784 #12724]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:46:50.489696 #12724]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:50.489696 #12724] DEBUG -- : body :
+I, [2020-10-03T21:46:51.609906 #12724]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:46:51.615643 #12724]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:46:51.617220 #12724] DEBUG -- : body :
+I, [2020-10-03T21:47:27.118040 #17160]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:47:27.129895 #17160]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:47:27.131703 #17160] DEBUG -- : body :
+I, [2020-10-03T21:47:28.288421 #17160]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:47:28.294224 #17160]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:47:28.295197 #17160] DEBUG -- : body :
+I, [2020-10-03T21:47:59.749442 #10268]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:47:59.842198 #10268]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T21:47:59.842198 #10268] DEBUG -- : body :
+I, [2020-10-03T21:48:01.000807 #10268]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:48:17.306748 #23140]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:48:17.584972 #23140]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:50:11.117835 #18576]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:50:11.384324 #18576]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T21:50:28.944990 #12900]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T21:50:29.228037 #12900]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:06:03.879324 #24040]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:06:03.879324 #24040]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T22:06:03.880300 #24040] DEBUG -- : body :
+I, [2020-10-03T22:06:05.058055 #24040]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:06:05.059124 #24040]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T22:06:05.059124 #24040] DEBUG -- : body :
+I, [2020-10-03T22:06:22.362330 #4396]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:06:25.720112 #4396]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:11:35.079773 #17124]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:11:36.217257 #17124]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:19:27.669987 #22508]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:19:28.801884 #22508]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:20:21.428575 #23012]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:20:21.432594 #23012]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:20:31.329157 #17048]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:20:32.461294 #17048]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:21:34.922869 #760]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:21:36.037700 #760]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:23:02.902898 #20956]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:23:02.903890 #20956]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T22:23:02.904801 #20956] DEBUG -- : body :
+I, [2020-10-03T22:23:04.008113 #20956]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 16:53:04 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-03T22:23:04.008113 #20956] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-03T22:40:10.796445 #4120]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:40:11.912412 #4120]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:41:11.610826 #18384]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:41:12.702354 #18384]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T22:41:25.559246 #5756]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:41:26.628193 #5756]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T22:41:26.628193 #5756] DEBUG -- : body :
+I, [2020-10-03T22:41:27.722818 #5756]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 17:11:27 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-03T22:41:27.723493 #5756] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-03T22:42:06.725518 #19008]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T22:42:07.791145 #19008]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T22:42:07.791812 #19008] DEBUG -- : body :
+I, [2020-10-03T22:42:08.893678 #19008]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 17:12:08 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-03T22:42:08.893678 #19008] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-03T23:41:05.769091 #23968]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T23:41:09.128980 #23968]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T23:42:30.809703 #22612]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T23:42:31.913712 #22612]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T23:44:18.081910 #19716]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T23:44:21.434930 #19716]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T23:47:08.940111 #16804]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T23:47:12.320864 #16804]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has a matching body'
+I, [2020-10-03T23:47:54.179679 #20760]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-03T23:47:55.237105 #20760]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-03T23:47:55.237954 #20760] DEBUG -- : body :
+I, [2020-10-03T23:47:56.329076 #20760]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sat, 03 Oct 2020 18:17:56 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-03T23:47:56.329076 #20760] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-04T14:45:12.995128 #12452]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T14:45:12.996087 #12452]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-04T14:45:12.997030 #12452] DEBUG -- : body :
+I, [2020-10-04T14:45:14.124185 #12452]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 09:15:14 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-04T14:45:14.125051 #12452] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-04T14:46:48.728242 #16892]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T14:46:48.729218 #16892]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-04T14:46:48.729218 #16892] DEBUG -- : body :
+I, [2020-10-04T14:46:49.784040 #16892]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 09:16:49 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-04T14:46:49.784040 #16892] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-04T14:53:51.213467 #22136]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T14:53:52.297398 #22136]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-04T14:53:52.298530 #22136] DEBUG -- : body :
+I, [2020-10-04T14:53:53.389928 #22136]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 09:23:53 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-04T14:53:53.390041 #22136] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-04T22:10:33.523482 #25528]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T22:10:34.618877 #25528]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+D, [2020-10-04T22:10:34.618877 #25528] DEBUG -- : body :
+I, [2020-10-04T22:10:35.698915 #25528]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 16:40:35 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+D, [2020-10-04T22:10:35.698915 #25528] DEBUG -- : body: {"name": "#345", "completed": true, "info": {"coverage": 30, "apiversion": 0.1, "swaggerlink": "http://swagger", "buildtime": 230}}
+I, [2020-10-04T22:10:46.214809 #11940]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T22:10:47.283842 #11940]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+I, [2020-10-04T22:10:48.376178 #11940]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 16:40:48 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body
+I, [2020-10-04T22:15:41.001116 #21340]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given build 3455 exists a request for build 3455 with GET /builds/3455 returns a response which has status code 200'
+I, [2020-10-04T22:15:42.082464 #21340]  INFO -- : Sending GET request to path: "/builds/3455" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"build 3455 exists"}]}, see debug logs for body
+I, [2020-10-04T22:15:43.169842 #21340]  INFO -- : Received response with status: 200, headers: {"Date"=>"Sun, 04 Oct 2020 16:45:43 GMT", "Server"=>"WSGIServer/0.2 CPython/3.6.4", "Content-Type"=>"application/json", "Content-Length"=>"131"}, see debug logs for body

@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "Consumer"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "description": "a request for build 3455",
+      "providerState": "build 3455 exists",
+      "request": {
+        "method": "get",
+        "path": "/builds/3455"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "name": "#345",
+          "completed": true,
+          "info": {
+            "coverage": 30,
+            "apiversion": 0.1,
+            "swaggerlink": "http://swagger",
+            "buildtime": 230
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

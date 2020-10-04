@@ -1,0 +1,5 @@
+{
+  "consumer_tests_path": "pact/pacts/Consumer-Provider.json",
+  "pact_broker_uri": "http://localhost:1234/"
+  //provider_states_setup_url == full url of the endpoint which sets the active consumer and provider state
+}

@@ -1,0 +1,86 @@
+I, [2020-10-04T14:31:48.073807 #18776]  INFO -- : Cleared interactions
+I, [2020-10-04T14:31:48.108055 #18776]  INFO -- : Registered expected interaction GET /builds/3455
+D, [2020-10-04T14:31:48.108942 #18776] DEBUG -- : {
+  "description": "a request for build 3455",
+  "providerState": "build 3455 exists",
+  "request": {
+    "method": "get",
+    "path": "/builds/3455"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "name": "#345",
+      "completed": true,
+      "info": {
+        "coverage": 30,
+        "apiversion": 0.1,
+        "swaggerlink": "http://swagger",
+        "buildtime": 230
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2020-10-04T14:31:48.140174 #18776]  INFO -- : Cleared interactions
+I, [2020-10-04T14:31:48.174398 #18776]  INFO -- : Registered expected interaction GET /builds/3455
+D, [2020-10-04T14:31:48.175310 #18776] DEBUG -- : {
+  "description": "a request for build 3455",
+  "providerState": "build 3455 exists",
+  "request": {
+    "method": "get",
+    "path": "/builds/3455"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "name": "#345",
+      "completed": true,
+      "info": {
+        "coverage": 30,
+        "apiversion": 0.1,
+        "swaggerlink": "http://swagger",
+        "buildtime": 230
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2020-10-04T14:31:48.209477 #18776]  INFO -- : Received request GET /builds/3455
+D, [2020-10-04T14:31:48.209477 #18776] DEBUG -- : {
+  "path": "/builds/3455",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "User-Agent": "python-requests/2.20.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-10-04T14:31:48.215432 #18776]  INFO -- : Found matching response for GET /builds/3455
+D, [2020-10-04T14:31:48.215432 #18776] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "name": "#345",
+    "completed": true,
+    "info": {
+      "coverage": 30,
+      "apiversion": 0.1,
+      "swaggerlink": "http://swagger",
+      "buildtime": 230
+    }
+  }
+}
+I, [2020-10-04T14:31:48.253392 #18776]  INFO -- : Verifying - interactions matched
+I, [2020-10-04T14:31:48.287154 #18776]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json
+I, [2020-10-04T14:31:48.517781 #18776]  INFO -- : Verifying - interactions matched
+I, [2020-10-04T14:31:48.539251 #18776]  INFO -- : Writing pact for Provider to ./pact/pacts/consumer-provider.json
